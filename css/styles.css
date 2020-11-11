@@ -1,0 +1,209 @@
+.main{
+  padding: 3% 15%;
+  background-color: f0f5f9;
+}
+
+.scroll-progress-indicator{
+  height: 5px;
+  width: 0%;
+  background: #52616b ;
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  z-index: 500;
+  /* box-shadow: 0 -1px 8px 2px rgba(41, 161, 156, 0.3 ); */
+
+}
+
+.navbar-brand{
+  font-family:'Cedarville Cursive', cursive;
+}
+
+.navbar-navs{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#heading{
+  height: 700px;
+  text-align: center;
+  padding: 3%;
+}
+
+.main-text{
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 4rem;
+}
+h2,h3,h4,p,.ptxt{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #52616b;
+}
+
+h1{
+  font-family:'Cedarville Cursive', cursive;
+}
+
+.main-code-text{
+  margin-top: 10%;
+  margin-left: 25%;
+  font-weight: normal;
+  animation: type 4s steps(20);
+  overflow:hidden;
+  white-space: nowrap;
+  font-family: consolas;
+  border-right: 2.5px solid ;
+  width:20ch;
+  margin-bottom: 5%;
+}
+@keyframes type {
+  0%{
+    width:0ch;
+  }
+  100%{
+    width: 20ch;
+  }
+
+}
+
+.left_head{
+  padding: 14% 5%;
+}
+.right_head{
+  padding: 14% 5%;
+}
+@media (max-width: 992px) {
+  .left_head{
+    padding: 15% 5% 7%;
+  }
+  .right_head{
+    padding: 8% 5% 8%;
+  }
+}
+
+#carouselExampleSlidesOnly{
+  padding: 5%;
+  align-items: center;
+}
+
+.profile-img{
+  height: 200px;
+  width: 200px;
+}
+.profile-img:hover{
+  content: url(resources/image-hover.png);
+}
+
+#qualification{
+  padding-top: 14%;
+  padding-bottom: 13%;
+}
+
+.qual-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qualf{
+  padding-top: 2%;
+}
+
+.subheading {
+text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+#skills{
+  padding-top: 16%;
+  padding-bottom: 15%;
+}
+
+.resume-section-content{
+  padding-bottom: 5%;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+
+.skill-logos{
+  height: 50px;
+  width: 50px;
+}
+
+.mb-3,
+.my-3 {
+  margin-bottom: 1rem !important;
+}
+
+.wrkfl{
+  padding-top: 1%;
+}
+.wrkflow{
+  padding-top: 3%;
+}
+
+.p-skill{
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+
+#Projects{
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.proj-box{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.prjct-in{
+  height: 40px;
+  width: 40px;
+}
+
+.prj{
+  text-decoration: none;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+
+.prj:hover{
+  color: black;
+}
+
+.c2{
+  text-align: center;
+padding: 7% 15%;
+background-color: #c9d6df;
+}
+
+.flk{
+  text-decoration: none;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: #1e2022  ;
+}
+
+.flk:hover{
+  color: white;
+}
+
+.footer-p{
+  color: #1e2022;
+}
